@@ -1,0 +1,60 @@
+#root .all .write {
+  text-align: right;
+}
+
+#root .all .cardpack {
+  width: 100%;
+}
+
+#root .all .cardpack .card {
+  width: 100%;
+  background-color: green;
+}
+
+#root .all .cardpack .card .title {
+  font-size: 30px;
+  margin-top: 30px;
+  color: salmon;
+}
+
+#root .all .cardpack .card .content {
+  font-size: 40px;
+  margin-top: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#root .writehead .headtitle {
+  font-size: 50px;
+  color: darkgoldenrod;
+}
+
+#root .writetitle {
+  font-size: 20px;
+  color: royalblue;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#root .writetitle input {
+  width: 95%;
+  height: 20px;
+  border: solid 1px red;
+  border-radius: 5px;
+}
+
+#root .writecontent {
+  font-size: 20px;
+  font-weight: bold;
+  color: royalblue;
+}
+
+#root .writecontent input {
+  width: 95%;
+  border-radius: 20px;
+  font-size: 30px;
+  border: solid 1px red;
+  height: 300px;
+}
+/*# sourceMappingURL=style.css.map */
